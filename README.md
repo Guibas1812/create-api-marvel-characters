@@ -5,3 +5,5 @@ This repository contains Python scripts that enable you to create an API to stor
 This API interacts with the Marvel API to provide a database of character details, including their name, total number of events, total number of series available, total number of comics and the price of the most expensive comic that the character was featured in. 
 
 In addition to the API scripts creation, it's also included a python script that accesses the Marvel API and enables you to store in a csv file the first 30 characters that then can be interacted with through the API. 
+
+Note: When interacting with this API, both the addition and the deletion of characters is protected using an OAuth authentication scheme whereby users can sign up and then log in to obtain an access token with limited scope and a duration of 1 hour.
