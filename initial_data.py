@@ -3,8 +3,7 @@ import hashlib
 import datetime
 import pandas as pd
 
-"""Script that accesses Marvel API and gets the first 30 characters that can then be interacted
-with through the API"""
+"""Script that accesses Marvel API and gets 30 characters."""
 
 #Access Marvel API (needed: Timestamp, privkey, publickey, hash)
 timestamp = datetime.datetime.now().strftime('%Y-%m-%d%H:%M:%S')
